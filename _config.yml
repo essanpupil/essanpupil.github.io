@@ -1,63 +1,74 @@
-# Site settings
-title: "Ikhsan N. Rosyidin"
-description: "My online professional resume."
+# Configurations
+title:            Jekyll Gitbook
+longtitle:        Jekyll Gitbook
+author:           HE Tao
+email:            sighingnow@gmail.com
+description: >
+  Build Jekyll site with the GitBook style.
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
+version:          1.0
+gitbook_version:  3.2.3
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Ikhsan N. Rosyidin"
-resume_title:                   "Senior DevOps Engineer"
+url:              'https://sighingnow.github.io'
+baseurl:          '/jekyll-gitbook'
+rss:              RSS
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "ikhsan.rosyidin@gmail.com"
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
 
-# the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+62-856-973-XXX-XX"
-resume_contact_address:         "Tangerang Selatan, Banten, Indonesia"
+toc:
+  enabled: true
+  h_min:   1
+  h_max:   3
 
-resume_header_contact_info:     "Tangerang Selatan, Banten, Indonesia • +62-856-973-XXX-XX • ikhsan.rosyidin@gmail.com"
-display_header_contact_info:    "false"
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
 
-resume_header_intro: "<p>With over 10 years of IT experience, I began my career in backend development with Python, emphasizing clean, maintainable code and automated testing to ensure reliability and scalability. As my role evolved, I transitioned into DevOps, where I specialize in automating infrastructure, streamlining deployments, and enhancing system efficiency using tools like Ansible, Terraform, and CloudFormation. I manage cloud infrastructures on AWS and GCP, orchestrate containers with Docker and Kubernetes, and build CI/CD pipelines with Jenkins and GitLab CI. I also focus on monitoring and incident response with tools like Datadog and AWS CloudWatch, ensuring system reliability and uptime.</p>"
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
 
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
+syntax_highlighter_style: colorful
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-# resume_section_interests:       true
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/essanpupil"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/essanpupil"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://pupil.id"
-  # resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
+# Permalinks
+permalink:                /:categories/:year-:month-:day-:title:output_ext
 
-# Design settings
-resume_theme:                   default
+# Disqus comments
+# disqushandler:            sighingnow
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+
+ordered_collections:
+  - posts
+  - pages
+  - others
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
