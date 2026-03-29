@@ -83,11 +83,15 @@ init_files() {
     rm -rf .github
   else
     ## Change the files of `.github/`
-    temp="$(mktemp -d)"
-    find .github/workflows -type f -name "*$ACTIONS_WORKFLOW*" -exec mv {} "$temp/$ACTIONS_WORKFLOW" \;
-    rm -rf .github && mkdir -p .github/workflows
-    mv "$temp/$ACTIONS_WORKFLOW" .github/workflows/"$ACTIONS_WORKFLOW"
-    rm -rf "$temp"
+    if [[ -d .github/workflows ]]; then
+      temp="$(mktemp -d)"
+      find .github/workflows -type f -name "*$ACTIONS_WORKFLOW*" -exec mv {} "$temp/$ACTIONS_WORKFLOW" \;
+      rm -rf .github && mkdir -p .github/workflows
+      mv "$temp/$ACTIONS_WORKFLOW" .github/workflows/"$ACTIONS_WORKFLOW"
+      rm -rf "$temp"
+    else
+      echo "Warning: .github/workflows directory not found, skipping workflow setup."
+    fi
   fi
 
   # Cleanup image settings in site config
