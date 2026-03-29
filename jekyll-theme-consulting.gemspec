@@ -13,12 +13,12 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets/css|assets/js|assets/webfonts|_layouts|_includes|_sass|404.md|.github/LICENSE|.github/README)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 4.0"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
+  spec.add_runtime_dependency "jekyll", "~> 4.4.1"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.8"
   spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16"
   spec.add_runtime_dependency "bigdecimal", ">= 3.0"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 12.0"
-  spec.add_development_dependency "webrick", "~> 1.7"
+  spec.add_development_dependency "bundler", ">= 4.0.9"
+  spec.add_development_dependency "rake", "~> 13.3.1"
+  spec.add_development_dependency "webrick", "~> 1.9.2"
 end
