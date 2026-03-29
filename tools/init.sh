@@ -9,7 +9,7 @@ CLI=("git" "npm")
 
 ACTIONS_WORKFLOW=pages-deploy.yml
 
-RELEASE_HASH=$(git log --grep="chore(release):" -1 --pretty="%H")
+RELEASE_HASH=$(git log --grep="chore(release):" -1 --pretty="%H" 2>/dev/null || echo "")
 
 # temporary file suffixes that make `sed -i` compatible with BSD and Linux
 TEMP_SUFFIX="to-delete"
@@ -52,6 +52,10 @@ _check_status() {
 }
 
 _check_init() {
+  if [[ -z "$RELEASE_HASH" ]]; then
+    echo "Warning: Could not find release commit. Proceeding with initialization."
+    return 0
+  fi
   if [[ $(git rev-parse HEAD^1) == "$RELEASE_HASH" ]]; then
     echo "Already initialized."
     exit 0
@@ -65,6 +69,10 @@ check_env() {
 }
 
 reset_latest() {
+  if [[ -z "$RELEASE_HASH" ]]; then
+    echo "Skipping reset since no release commit was found."
+    return 0
+  fi
   git reset --hard "$RELEASE_HASH"
   git clean -fd
   git submodule update --init --recursive
