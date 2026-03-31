@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
+resume_avatar:                  "false"
 resume_name:                    "Ikhsan N. Rosyidin"
 resume_title:                   "Senior DevOps Engineer"
 
