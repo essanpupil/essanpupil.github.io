@@ -1,6 +1,6 @@
 # Site settings
 title: "Ikhsan N. Rosyidin"
-description: "My online professional resume."
+description: "Platform Engineer for hire."
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Ikhsan N. Rosyidin"
-resume_title:                   "Senior DevOps Engineer"
+resume_title:                   "Platform Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "ikhsan.rosyidin@gmail.com"
@@ -20,8 +20,8 @@ resume_contact_email:           "ikhsan.rosyidin@gmail.com"
 resume_contact_telephone:       "+62-856-973-XXX-XX"
 resume_contact_address:         "Tangerang Selatan, Banten, Indonesia"
 
-resume_header_contact_info:     "Tangerang Selatan, Banten, Indonesia • +62-856-973-XXX-XX • ikhsan.rosyidin@gmail.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "Tangerang Selatan, Banten, Indonesia | ikhsan.rosyidin@gmail.com"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>With over 10 years of IT experience, I began my career in backend development with Python, emphasizing clean, maintainable code and automated testing to ensure reliability and scalability. As my role evolved, I transitioned into DevOps, where I specialize in automating infrastructure, streamlining deployments, and enhancing system efficiency using tools like Ansible, Terraform, and CloudFormation. I manage cloud infrastructures on AWS and GCP, orchestrate containers with Docker and Kubernetes, and build CI/CD pipelines with Jenkins and GitLab CI. I also focus on monitoring and incident response with tools like Datadog and AWS CloudWatch, ensuring system reliability and uptime.</p>"
 
@@ -37,21 +37,21 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
+resume_section_recognition:     false
 resume_section_links:           true
-resume_section_associations:    true
+resume_section_associations:    false
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/essanpupil"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
+  resume_twitter_url:           "http://twitter.com/essanpupil"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/essanpupil"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://pupil.id"
+  # resume_website_url:           "https://pupil.id"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
