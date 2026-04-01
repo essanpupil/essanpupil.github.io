@@ -1,0 +1,15 @@
+.git
+.gitignore
+.github
+.jekyll-cache
+.sass-cache
+_site
+Dockerfile
+README.md
+.ruby-version
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+.env.local
