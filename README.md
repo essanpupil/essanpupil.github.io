@@ -1,61 +1,60 @@
 # Ikhsan N. Rosyidin
-## Platform Engineer
 
-### Running locally
+Portfolio and resume site for a Platform Engineer based in Tangerang Selatan, Indonesia.
 
-To test locally, run the following in your terminal:
+**View online:** [essanpupil.github.io](https://essanpupil.github.io)
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+## Quick Start
 
-### Running locally with Docker
+### Local Development
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+Open your browser to `http://localhost:4000`
 
-### Customizing
+### With Docker
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+```bash
+docker build -t essanpupil-portfolio .
+docker run --rm --name essanpupil-portfolio -v "$PWD":/home/app --network host essanpupil-portfolio
+```
 
-#### Options/configuration
+## Customization
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+### Configuration
 
-[...write these out...]
+Edit `_config.yml` to update:
+- Site title and description
+- Resume information (name, title, contact details)
+- Resume sections to display (experience, education, projects, skills, etc.)
+- Social media links (GitHub, LinkedIn, Twitter, etc.)
 
-#### Editing content
+### Content
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+Edit `_layouts/resume.html` to modify the layout and structure.
 
-### Publishing to GitHub Pages for free
+Update content files in `_data/`:
+- `experience.yml` - Work history
+- `education.yml` - Education background
+- `projects.yml` - Portfolio projects
+- `skills.yml` - Technical skills
+- `links.yml` - External links
 
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
+## Build & Deploy
 
-### Configuring with your own domain name
+The site is automatically deployed to GitHub Pages on every push to `master` branch.
 
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
+For manual builds:
 
-### Themes
+```bash
+bundle exec jekyll build
+```
 
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
+Output is generated in the `_site/` directory.
 
 ## License
 
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+The code and styles are licensed under the MIT license. [See project license.](LICENSE)
