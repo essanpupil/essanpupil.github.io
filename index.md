@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Resume"
 ---
 
 {% include resume.md %}
