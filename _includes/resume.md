@@ -65,7 +65,7 @@
 
 **Noosc Global (noosc.co.id)** | **IT Security Analyst**
 *November 2012 – October 2014 | Jakarta, On-site*
-* **Security:** Monitored and maintained the AlienVault OSSIM platform. Integrated critical log sources and network appliances—including Snort, Palo Alto networks, and F5 Firewalls—into a centralized monitoring ecosystem to accelerate threat detection.
+* **Security:** Monitored and maintained AlienVault Open Source SIEM. Integrated critical log sources and network appliances including Snort, Palo Alto networks, and F5 Firewalls into the SIEM ecosystem to accelerate threat detection.
 * **Operational Excellence:** Configured and aligned enterprise security tooling to enforce and comply with strict client security policies and regulatory frameworks.
 
 ### Education
