@@ -11,7 +11,7 @@
 * **Containerization & Orchestration:** Kubernetes (AWS EKS, K3s), Helm, Docker.
 * **Infrastructure as Code & Configuration:** Terraform, Terragrunt, Ansible, Vagrant.
 * **Continuous Integration & Delivery (CI/CD):** ArgoCD (GitOps), GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, Jenkins.
-* **Workflow Automation & RPA:** Apache Airflow, UiPath, Automated Testing (Selenium/WebDriver).
+* **Workflow Automation & RPA:** Apache Airflow, UiPath, Automated Testing (Selenium/WebDriver, pytest, unittest).
 * **Observability & Monitoring:** Datadog, Prometheus, Grafana, Loki, Tempo (Distributed Tracing), ELK Stack (Elasticsearch, Logstash, Kibana), Nagios, Cacti.
 * **Reliability Engineering:** Chaos Engineering (AWS FIS), Disaster Recovery (DR), High Availability Architecture, Incident Response, SLA Management.
 * **Security & Governance:** DevSecOps, Cloud IAM Least-Privilege, Bitnami Sealed Secrets, AlienVault OSSIM, Palo Alto, F5 Firewalls, Snort.
@@ -54,12 +54,14 @@
 
 **Jublia (jublia.com)** | **Software Engineer**
 *February 2018 – November 2018 | Singapore, Remote*
-* **Operational Excellence:** Engineered GitLab CI/CD pipelines and automated testing suites for Python/Flask applications hosted on Ubuntu Servers, accelerating deployment cycles. 
-* **Performance Efficiency:** Migrated legacy PHP applications to a modern Python/Flask stack and upgraded existing core applications from Python 2 to Python 3 to improve backend execution speed. Engineered automated data synchronization pipelines via Python scripting.
+* **Software Architecture & Backend:** Engineered a custom Python application dispatcher capable of dynamically mapping URL prefixes to dedicated Flask micro-applications, significantly improving routing modularity. Modernized legacy systems by porting monolithic PHP web applications to a Flask stack and executing a critical core upgrade from Python 2 to Python 3.
+* **Data Engineering & Integration:** Architected automated, two-way data synchronization pipelines utilizing Python to ensure seamless real-time data integrity between Google Spreadsheets and backend MySQL databases to provide alternative familiar interface for customers.
+* **Operational Excellence & Testing:** Authored comprehensive `unittest` suites and automated browser tests for distributed Flask applications. Engineered robust GitLab CI pipelines to enforce automated testing logic, accelerating safe deployment cycles to production Ubuntu servers.
+* **Mentorship & Leadership:** Mentored intern software engineers, providing technical guidance on Python backend development and CI/CD best practices to accelerate their onboarding and impact.
 
 **Lewatmana Pandu Lalulintas (lewatmana.com)** | **Software Engineer**
 *March 2015 – September 2017 | Jakarta, On-site*
-* **Operational Excellence:** Authored unittest and automated browser tests for Django applications utilizing `pytest` and Selenium WebDriver. Engineered GitLab CI pipelines to execute these testing suites within isolated container environments. Automated background processes utilizing Bash scripting and deployed Vagrant to standardize local development workflows.
+* **Operational Excellence:** Authored `unittest` and automated browser tests for Django applications utilizing `pytest` and Selenium WebDriver. Engineered GitLab CI pipelines to execute these testing suites within isolated container environments. Automated background processes utilizing Bash scripting and deployed Vagrant to standardize local development workflows.
 * **Reliability:** Deployed Nagios and Cacti to monitor the performance of distributed Python/Django applications and the servers. Managed PostgreSQL database replication systems using SkyTools.
 * **Performance Efficiency:** Executed a major framework upgrade of a Django application from version 1.2-prealpha to 1.9, and optimized Django ORM queries to improve data retrieval speeds.
 * **Database Scalability:** Resolved critical PostgreSQL maximum row limitations by changing to another field type and then sync the ORM table declaration, ensuring continuous high-volume traffic data ingestion without downtime.
