@@ -59,8 +59,8 @@
 
 **Lewatmana Pandu Lalulintas (lewatmana.com)** | **Software Engineer**
 *March 2015 – September 2017 | Jakarta, On-site*
-* **Operational Excellence:** Engineered GitLab CI pipelines to execute automated testing suites using Selenium and WebDriver inside container images. Automated background processes using Bash scripts. Utilized Vagrant to standardize local environments.
-* **Reliability:** Deployed Nagios and Cacti to monitor the performance of distributed Python/Django applications. Managed PostgreSQL database replication systems using SkyTools.
+* **Operational Excellence:** Authored unittest and automated browser tests for Django applications utilizing `pytest` and Selenium WebDriver. Engineered GitLab CI pipelines to execute these testing suites within isolated container environments. Automated background processes utilizing Bash scripting and deployed Vagrant to standardize local development workflows.
+* **Reliability:** Deployed Nagios and Cacti to monitor the performance of distributed Python/Django applications and the servers. Managed PostgreSQL database replication systems using SkyTools.
 * **Performance Efficiency:** Executed a major framework upgrade of a Django application from version 1.2-prealpha to 1.9, and optimized Django ORM queries to improve data retrieval speeds.
 * **Database Scalability:** Resolved critical PostgreSQL maximum row limitations by changing to another field type and then sync the ORM table declaration, ensuring continuous high-volume traffic data ingestion without downtime.
 * **Data Processing:** Engineered robust Python backend features to accurately parse, synchronize, and calculate complex timestamp and time-series data across multiple timezones, ensuring strict data integrity for the traffic logging ecosystem.
