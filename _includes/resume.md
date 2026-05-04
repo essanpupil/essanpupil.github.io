@@ -59,9 +59,12 @@
 
 **Lewatmana Pandu Lalulintas (lewatmana.com)** | **Software Engineer**
 *March 2015 – September 2017 | Jakarta, On-site*
-* **Operational Excellence:** Engineered GitLab CI pipelines to execute custom automated testing suites using Selenium and WebDriver container images. Automated background processes using Bash scripts. Utilized Vagrant to standardize local environments.
-* **Reliability:** Deployed Nagios and Cacti on Apache webservers to monitor the performance of distributed Python/Django applications. Managed PostgreSQL database replication systems using SkyTools.
-* **Performance Efficiency:** Executed a framework upgrade of a Django application and optimized Django ORM queries to improve data retrieval speeds.
+* **Operational Excellence:** Engineered GitLab CI pipelines to execute automated testing suites using Selenium and WebDriver inside container images. Automated background processes using Bash scripts. Utilized Vagrant to standardize local environments.
+* **Reliability:** Deployed Nagios and Cacti to monitor the performance of distributed Python/Django applications. Managed PostgreSQL database replication systems using SkyTools.
+* **Performance Efficiency:** Executed a major framework upgrade of a Django application from version 1.2-prealpha to 1.9, and optimized Django ORM queries to improve data retrieval speeds.
+* **Database Scalability:** Resolved critical PostgreSQL maximum row limitations by changing to another field type and then sync the ORM table declaration, ensuring continuous high-volume traffic data ingestion without downtime.
+* **Data Processing:** Engineered robust Python backend features to accurately parse, synchronize, and calculate complex timestamp and time-series data across multiple timezones, ensuring strict data integrity for the traffic logging ecosystem.
+* **Data Ingestion & ETL:** Architected Python data ingestion pipelines to automate the bulk import of legacy `.xls` files directly into PostgreSQL. Developed complex parsing logic to dynamically resolve inconsistent file encodings and regional localization formats, preventing database ingestion failures.
 
 **Noosc Global (noosc.co.id)** | **IT Security Analyst**
 *November 2012 – October 2014 | Jakarta, On-site*
