@@ -1,18 +1,23 @@
 # Ikhsan Noor Rosyidin
 **Platform Engineer**  
-***Tangerang Selatan, Indonesia   
-[ikhsan.rosyidin@gmail.com](mailto:ikhsan.rosyidin@gmail.com) | [linkedin.com/in/essanpupil](https://linkedin.com/in/essanpupil) | [github.com/essanpupil](https://github.com/essanpupil)***
+Tangerang Selatan, Indonesia   
+[ikhsan.rosyidin@gmail.com](mailto:ikhsan.rosyidin@gmail.com) | [linkedin.com/in/essanpupil](https://linkedin.com/in/essanpupil) | [github.com/essanpupil](https://github.com/essanpupil)
 
 ## Professional Summary
 **Senior Platform Engineer** with over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity through strict Infrastructure as Code (IaC) and GitOps automation. Highly adaptable and self-driven, with a demonstrated capacity for rapid, independent learning to master emerging technologies on demand. Thrives in fully remote environments requiring high autonomy and minimal supervision, consistently delivering on architectural commitments while remaining a highly collaborative partner within distributed engineering teams. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic, multi-tenant platforms.
 
 ## Skills
-* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront, WAF, IAM), GCP (Compute Engine, Dataflow, Pub/Sub, Cloud Armor), On-Premise, K3s, Ubuntu Servers, Windows Server, Akamai CDN, Varnish, Thumbor, Nagios, Cacti
-* **Automation & IaC:** Terraform, Terragrunt, Ansible, Helm, ArgoCD, GitOps, Jenkins, GitHub Actions, AWS CodeBuild, AWS CodePipeline, UiPath, Bash, Python
+* **Cloud & Infrastructure:**
+    * **AWS:** EKS, EC2, CloudFront
+    * **GCP:** Compute Engine, Dataflow, Pub/Sub
+    * **On-Premise:** K3s, Ubuntu Servers
+* **Automation:** Jenkins, GitHub Actions, GitLab CI, AWS CodeBuild, AWS CodePipeline, UiPath
+* **IaC:** Terraform, Terragrunt, Ansible, Helm
 * **Monitoring & Observability:** Prometheus, Grafana, Loki, Tempo, Datadog, ELK Stack
-* **Networking & Security:** NAT, Firewall, Bitnami Sealed Secrets, Snort, Palo Alto, F5, AlienVault SIEM, Geo-blocking, Secret Management
-* **Databases & Data:** PostgreSQL, Pgcat, MySQL, Elasticsearch, Apache Airflow, ETL, Data Pipelines, Google Spreadsheets
-* **Developer Experience:** Vagrant, Automated Testing (`unittest`, `pytest`, Selenium), GitLab CI, Mentorship, Remote Collaboration, Leadership
+* **Networking:** NAT
+* **Security:** Firewall, Bitnami Sealed Secrets, Snort, Palo Alto, F5, AlienVault SIEM, Geo-blocking, Secret Management
+* **Databases:** PostgreSQL, Pgcat, MySQL, MongoDB
+* **Developer Experience:** Vagrant, Selenium
 
 ## Experience
 
