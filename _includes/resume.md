@@ -15,7 +15,7 @@ Tangerang Selatan, Indonesia
 * **IaC:** Terraform, Terragrunt, Ansible, Helm
 * **Monitoring & Observability:** Prometheus, Grafana, Loki, Tempo, Datadog, ELK Stack
 * **Networking:** NAT
-* **Security:** Firewall, Bitnami Sealed Secrets, Snort, Palo Alto, F5, AlienVault SIEM, Geo-blocking, Secret Management
+* **Security:** Bitnami Sealed Secrets, Snort, AlienVault SIEM
 * **Databases:** PostgreSQL, Pgcat, MySQL, MongoDB
 * **Developer Experience:** Vagrant, Selenium
 
@@ -69,7 +69,7 @@ Tangerang Selatan, Indonesia
 
 **Noosc Global (noosc.co.id)** | **IT Security Analyst**
 *November 2012 – October 2014 | Jakarta, On-site*
-* **Security:** Monitored and maintained AlienVault Open Source SIEM. Integrated critical log sources and network appliances including Snort, Palo Alto networks, and F5 Firewalls into the SIEM ecosystem to accelerate threat detection.
+* **Security:** Monitored and maintained AlienVault Open Source SIEM. Integrated logs from security and network appliances such as Snort and F5 Firewalls into the SIEM ecosystem for threat detection analisys.
 * **Operational Excellence:** Configured and aligned enterprise security tooling to enforce and comply with strict client security policies and regulatory frameworks.
 
 ### Education
