@@ -1,24 +1,9 @@
 # Ikhsan Noor Rosyidin
-### Tangerang Selatan, Indonesia | [ikhsan.rosyidin@gmail.com](mailto:ikhsan.rosyidin@gmail.com) | [linkedin.com/in/essanpupil](https://linkedin.com/in/essanpupil) | [github.com/essanpupil](https://github.com/essanpupil)
+***Tangerang Selatan, Indonesia   
+[ikhsan.rosyidin@gmail.com](mailto:ikhsan.rosyidin@gmail.com) | [linkedin.com/in/essanpupil](https://linkedin.com/in/essanpupil) | [github.com/essanpupil](https://github.com/essanpupil)***
 
 ## Professional Summary
 **Senior Platform Engineer** with over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity through strict Infrastructure as Code (IaC) and GitOps automation. Highly adaptable and self-driven, with a demonstrated capacity for rapid, independent learning to master emerging technologies on demand. Thrives in fully remote environments requiring high autonomy and minimal supervision, consistently delivering on architectural commitments while remaining a highly collaborative partner within distributed engineering teams. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic, multi-tenant platforms.
-
-## Technical Skills
-* **Cloud Platforms & Infrastructure:** AWS (EKS, ECS, EC2 Spot/ASG, Lambda, S3, RDS, Billing Alerts), GCP (Compute Engine, GCS, Dataflow, Pub/Sub), Ubuntu/Linux Servers.
-* **Content Delivery & Caching:** AWS CloudFront, Akamai CDN, Varnish Cache.
-* **Networking & Edge Security:** AWS WAF, GCP Cloud Armor, ngrok.
-* **Containerization & Orchestration:** Kubernetes (AWS EKS, K3s), Helm, Docker.
-* **Infrastructure as Code & Configuration:** Terraform, Terragrunt, Ansible, Vagrant.
-* **Continuous Integration & Delivery (CI/CD):** ArgoCD (GitOps), GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, Jenkins.
-* **Workflow Automation & RPA:** Apache Airflow, UiPath, Automated Testing (Selenium/WebDriver, pytest, unittest).
-* **Observability & Monitoring:** Datadog, Prometheus, Grafana, Loki, Tempo (Distributed Tracing), ELK Stack (Elasticsearch, Logstash, Kibana), Nagios, Cacti.
-* **Reliability Engineering:** Chaos Engineering (AWS FIS), Disaster Recovery (DR), High Availability Architecture, Incident Response, SLA Management.
-* **Security & Governance:** DevSecOps, Cloud IAM Least-Privilege, Bitnami Sealed Secrets, AlienVault OSSIM, Palo Alto, F5 Firewalls, Snort.
-* **Software Engineering & Backend:** Go, Python (Django, Flask), Ruby on Rails, SQL.
-* **Scripting:** Bash, Python.
-* **Databases:** PostgreSQL, MySQL, Pgcat (Connection Pooling).
-* **Storage & Data Formats:** Longhorn (Block Storage), NFS, Parquet.
 
 ## Professional Experience
 
