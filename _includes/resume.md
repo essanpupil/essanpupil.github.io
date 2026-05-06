@@ -14,7 +14,7 @@ Tangerang Selatan, Indonesia
 * **Security & Governance:** AWS Security Hub, Amazon GuardDuty, HashiCorp Vault, Bitnami Sealed Secrets, Enterprise Firewalls (Palo Alto, F5), AlienVault SIEM, AWS IAM
 * **Web Servers & Edge:** Nginx, Apache, AWS WAF, GCP Cloud Armor, Akamai CDN, Varnish Cache
 * **Databases & Storage:** PostgreSQL, Pgcat, MySQL, MongoDB, Longhorn, Parquet
-* **Software Engineering & Scripting:** Python (Django, Flask), PHP (Symfony), Go, Shell/Bash
+* **Software Engineering & Scripting:** Python (Django, Flask), PHP, Shell/Bash
 
 ## Professional Experience
 
