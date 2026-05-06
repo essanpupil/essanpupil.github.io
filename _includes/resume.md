@@ -1,76 +1,69 @@
 # Ikhsan Noor Rosyidin
-**Platform Engineer**  
+**Senior Platform Engineer**  
 Tangerang Selatan, Indonesia   
 [ikhsan.rosyidin@gmail.com](mailto:ikhsan.rosyidin@gmail.com) | [linkedin.com/in/essanpupil](https://linkedin.com/in/essanpupil) | [github.com/essanpupil](https://github.com/essanpupil)
 
 ## Professional Summary
-**Senior Platform Engineer** with over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity through strict Infrastructure as Code (IaC) and GitOps automation. Highly adaptable and self-driven, with a demonstrated capacity for rapid, independent learning to master emerging technologies on demand. Thrives in fully remote environments requiring high autonomy and minimal supervision, consistently delivering on architectural commitments while remaining a highly collaborative partner within distributed engineering teams. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic, multi-tenant platforms.
+**Senior Platform Engineer** with 13+ years of experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity via strict IaC and GitOps automation. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic platforms. Highly adaptable, self-driven, and thrives in autonomous remote environments.
 
-## Skills
-* **Cloud & Infrastructure:**
-    * **AWS:** EKS, EC2, CloudFront
-    * **GCP:** Compute Engine, Dataflow, Pub/Sub
-    * **On-Premise:** K3s, Ubuntu Servers
-* **Automation:** Jenkins, GitHub Actions, GitLab CI, AWS CodeBuild, AWS CodePipeline, UiPath
-* **IaC:** Terraform, Terragrunt, Ansible, Helm
-* **Monitoring & Observability:** Prometheus, Grafana, Loki, Tempo, Datadog, ELK Stack
-* **Networking:** NAT
-* **Security:** Bitnami Sealed Secrets, Snort, AlienVault SIEM
-* **Databases:** PostgreSQL, Pgcat, MySQL, MongoDB
-* **Developer Experience:** Vagrant, Selenium
+## Technical Skills
+* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront), GCP (Compute Engine, Dataflow, Pub/Sub), On-Premise (K3s, Ubuntu)
+* **Automation & CI/CD:** Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, UiPath
+* **IaC & Orchestration:** Terraform, Terragrunt, Ansible, Helm, Docker
+* **Observability:** Prometheus, Grafana, Loki, Tempo, Datadog, ELK Stack
+* **Networking & Edge:** NAT, AWS WAF, GCP Cloud Armor, ngrok, Akamai CDN
+* **Security & Governance:** Bitnami Sealed Secrets, Snort, AlienVault SIEM, IAM Least-Privilege
+* **Databases & Storage:** PostgreSQL, Pgcat, MySQL, MongoDB, Longhorn, Parquet
+* **Testing & DevEx:** Vagrant, Selenium, pytest, unittest
+* **Software Engineering:** Python (Django, Flask), Go, Ruby on Rails, Bash
 
-## Experience
+## Professional Experience
 
 **Ailytics (ailytics.ai)** | **Senior DevOps & Cloud Engineer**
 *August 2025 – March 2026 | Singapore, Remote*
-* **Reliability:** Engineered highly available deployment strategies across cloud (AWS EKS) and on-premise (K3s on Ubuntu Servers) environments. Authored Terraform modules and Ansible playbooks to orchestrate K3s deployments across 5 bare-metal client servers. Architected distributed block storage using Longhorn.
-* **Operational Excellence:** Architected a comprehensive cloud-native observability ecosystem (Prometheus, Grafana, Loki, Tempo) to accelerate MTTR. Refactored legacy Helm charts and implemented ArgoCD to establish GitOps-based continuous delivery, accelerating deployment times by ~40%.
-* **Performance Efficiency:** Accelerated global content delivery and reduced application latency by implementing AWS CloudFront. Optimized PostgreSQL database performance utilizing Pgcat connection poolers for high-concurrency traffic.
-* **Security:** Resolved strict client firewall constraints by deploying ngrok secure tunnels and configuring inter-node NAT via Ansible. Implemented encrypted secret management via Bitnami Sealed Secrets within Helm deployments.
+* **Reliability:** Engineered highly available deployments across AWS EKS and on-premise K3s environments. Authored Terraform and Ansible to orchestrate K3s across bare-metal client servers and architected distributed block storage via Longhorn.
+* **Operational Excellence:** Built a cloud-native observability stack (Prometheus, Grafana, Loki, Tempo) to accelerate MTTR. Refactored legacy Helm charts and implemented ArgoCD for GitOps delivery, cutting deployment times by ~40%.
+* **Performance Efficiency:** Accelerated content delivery via AWS CloudFront and optimized PostgreSQL performance using Pgcat connection poolers for high-concurrency traffic.
+* **Security:** Bypassed strict client firewalls via ngrok secure tunnels and configured inter-node NAT. Managed encrypted secrets with Bitnami Sealed Secrets.
 
 **Traveloka Indonesia (traveloka.com)** | **Site Reliability Engineer**
 *July 2020 – August 2025 | Jakarta, On-site*
-* **Cost Optimization:** Orchestrated enterprise AWS FinOps initiatives, reducing monthly compute expenditure by ~30%, by architecting scalable infrastructure utilizing AWS EC2 Spot Instances and Auto Scaling Groups (ASG). Debugged complex cost anomalies and implemented strict billing alerts.
-* **Operational Excellence:** Upgraded the IaC ecosystem by implementing Terragrunt over 50 existing Terraform modules. Engineered automated CI/CD pipelines using AWS CodeBuild, CodePipeline, and GitHub Actions. Deployed UiPath (RPA) infrastructure on Windows Server to automate legacy partner workflows.
-* **Reliability:** Participated in a high-stakes 24/7 on-call rotation for business-critical travel services, triaging production incidents and maintaining strict SLAs. Designed Disaster Recovery (DR) plans and implemented Datadog for real-time monitoring across ECS and RDS.
-* **Security:** Implemented security perimeters by deploying AWS WAF across all public-facing endpoints. Designed and enforced strict AWS IAM roles and policies to guarantee least-privilege access controls across more than 100 multi-tenant accounts.
+* **Cost Optimization:** Led AWS FinOps initiatives, cutting monthly compute costs by ~30% through scalable infrastructure utilizing EC2 Spot Instances and Auto Scaling Groups (ASG). 
+* **Operational Excellence:** Modernized IaC by implementing Terragrunt across 50+ Terraform modules. Built CI/CD pipelines via AWS CodeBuild and GitHub Actions, and deployed UiPath RPA to automate partner workflows.
+* **Reliability:** Managed 24/7 on-call rotations for critical travel services. Designed Disaster Recovery (DR) plans and implemented Datadog for real-time ECS/RDS monitoring.
+* **Security:** Enforced security perimeters using AWS WAF and strictly defined AWS IAM roles to guarantee least-privilege access across 100+ multi-tenant accounts.
 
 **Vidio Dot Com (vidio.com)** | **DevOps Engineer**
 *July 2019 – July 2020 | Jakarta, On-site*
-* **Cost Optimization:** Executed a large-scale infrastructure migration from AWS to GCP. Reduced cloud billing by ~30% by rightsizing Linux server workloads and engineering fault-tolerant architectures utilizing Google Compute Engine preemptible instances.
-* **Performance Efficiency:** Managed Akamai CDN and Varnish Cache configurations to ensure high-availability video streaming handling over 200,000 RPS. Maintained Thumbor image processing servers for dynamic content delivery.
-* **Operational Excellence:** Automated infrastructure provisioning and configuration management using Jenkins and Ansible. Upgraded core data pipelines by migrating Apache Airflow to Python 3 to streamline workflows.
-* **Reliability & Observability:** Integrated Datadog with a centralized ELK stack to provide full-stack visibility into distributed environments, accelerating incident response and drastically reducing MTTR.
-* **Developer Experience (DevEx):** Championed internal developer productivity by standardizing and optimizing local Vagrant environments, successfully reducing local provisioning times by ~30 minutes and removing workflow friction for the software engineering teams.
-* **Security:** Implemented Google Cloud Armor to secure public web services against external threats and enforced strict geo-blocking policies.
+* **Cost Optimization:** Migrated large-scale infrastructure from AWS to GCP, reducing billing by ~30% via rightsized workloads and GCP preemptible instances.
+* **Performance Efficiency:** Managed Akamai CDN and Varnish Cache for high-availability video streaming exceeding 200,000 RPS.
+* **Operational Excellence:** Automated provisioning with Jenkins and Ansible. Upgraded core Apache Airflow data pipelines to Python 3.
+* **Reliability:** Integrated Datadog with a centralized ELK stack for full-stack visibility, drastically reducing MTTR.
+* **DevEx:** Standardized local Vagrant environments, reducing provisioning times by ~30 minutes for the engineering team.
 
 **Aplikasi Pesan Indonesia - BBM** | **DevOps Engineer**
 *November 2018 – July 2019 | Jakarta, On-site*
-* **Performance Efficiency:** Engineered highly scalable data restoration pipelines utilizing Jenkins, Python, and GCP Dataflow to process ~9 GB of Parquet files from GCS and continuous live message streams from Google Pub/Sub directly into Elasticsearch clusters.
-* **Infrastructure:** Automated server provisioning and configuration management using Ansible across Google Cloud Platform (GCP) Virtual Machines, ensuring the underlying stability of a high-throughput messaging ecosystem.
-* **Observability:** Managed a centralized ELK Stack and implemented Datadog monitoring to proactively track the health, logging, and performance of massive Elasticsearch clusters.
-* **Reliability:** Authored critical incident runbooks and participated in high-stakes 24/7 on-call rotations to rapidly triage production outages, ensuring mission-critical messaging uptime and eliminating single points of failure.
+* **Performance Efficiency:** Engineered highly scalable data restoration pipelines via Jenkins, Python, and GCP Dataflow to process continuous Pub/Sub live messaging and Parquet files into Elasticsearch.
+* **Infrastructure:** Automated server provisioning using Ansible across GCP Virtual Machines to stabilize a high-throughput messaging ecosystem.
+* **Observability & Reliability:** Managed ELK/Datadog monitoring for massive Elasticsearch clusters. Authored incident runbooks and participated in 24/7 on-call rotations to eliminate single points of failure.
 
 **Jublia (jublia.com)** | **Software Engineer**
 *February 2018 – November 2018 | Singapore, Remote*
-* **Software Architecture & Backend:** Engineered a custom Python application dispatcher capable of dynamically mapping URL prefixes to dedicated Flask micro-applications, significantly improving routing modularity. Modernized legacy systems by porting monolithic PHP web applications to a Flask stack and executing a critical core upgrade from Python 2 to Python 3.
-* **Data Engineering & Integration:** Architected automated, two-way data synchronization pipelines utilizing Python to ensure seamless real-time data integrity between Google Spreadsheets and backend MySQL databases to provide alternative familiar interface for customers.
-* **Operational Excellence & Testing:** Authored comprehensive `unittest` suites and automated browser tests for distributed Flask applications. Engineered robust GitLab CI pipelines to enforce automated testing logic, accelerating safe deployment cycles to production Ubuntu servers.
-* **Mentorship & Leadership:** Mentored intern software engineers, providing technical guidance on Python backend development and CI/CD best practices to accelerate their onboarding and impact.
+* **Software Architecture:** Engineered a custom Python dispatcher for dynamic URL mapping to Flask micro-applications. Ported legacy PHP apps to Flask and executed a core Python 2 to Python 3 upgrade.
+* **Data Integration:** Architected automated, two-way data synchronization pipelines in Python to ensure real-time data integrity between Google Spreadsheets and MySQL databases, providing a familiar alternative interface for customers.
+* **Testing & DevEx:** Authored `unittest` suites and automated browser tests, enforcing logic through GitLab CI pipelines to accelerate safe deployments. Mentored intern engineers on Python and CI/CD best practices.
 
 **Lewatmana Pandu Lalulintas (lewatmana.com)** | **Software Engineer**
 *March 2015 – September 2017 | Jakarta, On-site*
-* **Operational Excellence:** Authored `unittest` and automated browser tests for Django applications utilizing `pytest` and Selenium WebDriver. Engineered GitLab CI pipelines to execute these testing suites within isolated container environments. Automated background processes utilizing Bash scripting and deployed Vagrant to standardize local development workflows.
-* **Reliability:** Deployed Nagios and Cacti to monitor the performance of distributed Python/Django applications and the servers. Managed PostgreSQL database replication systems using SkyTools.
-* **Performance Efficiency:** Executed a major framework upgrade of a Django application from version 1.2-prealpha to 1.9, and optimized Django ORM queries to improve data retrieval speeds.
-* **Database Scalability:** Resolved critical PostgreSQL maximum row limitations by changing to another field type and then sync the ORM table declaration, ensuring continuous high-volume traffic data ingestion without downtime.
-* **Data Processing:** Engineered robust Python backend features to accurately parse, synchronize, and calculate complex timestamp and time-series data across multiple timezones, ensuring strict data integrity for the traffic logging ecosystem.
-* **Data Ingestion & ETL:** Architected Python data ingestion pipelines to automate the bulk import of legacy `.xls` files directly into PostgreSQL. Developed complex parsing logic to dynamically resolve inconsistent file encodings and regional localization formats, preventing database ingestion failures.
+* **Operational Excellence:** Authored `pytest` and Selenium browser tests, executed via GitLab CI. Automated background processes with Bash and standardized local workflows with Vagrant.
+* **Database Scalability:** Resolved critical PostgreSQL maximum row limitations by changing to another field type and then synchronizing the ORM table declaration, ensuring continuous traffic data ingestion without downtime.
+* **Data Processing:** Engineered robust Python backends to parse and synchronize complex timestamp and time-series data across multiple timezones.
+* **Data Ingestion:** Architected ETL pipelines to automate bulk `.xls` imports into PostgreSQL, resolving inconsistent file encodings and localizations to prevent ingestion failures.
 
 **Noosc Global (noosc.co.id)** | **IT Security Analyst**
 *November 2012 – October 2014 | Jakarta, On-site*
-* **Security:** Monitored and maintained AlienVault Open Source SIEM. Integrated logs from security and network appliances such as Snort and F5 Firewalls into the SIEM ecosystem for threat detection analisys.
-* **Operational Excellence:** Configured and aligned enterprise security tooling to enforce and comply with strict client security policies and regulatory frameworks.
+* **Security:** Monitored and maintained AlienVault Open Source SIEM. Integrated logs from security and network appliances such as Snort and F5 Firewalls into the SIEM ecosystem for threat detection analysis.
+* **Operational Excellence:** Configured enterprise security tooling to enforce strict client security policies and regulatory compliance.
 
 ### Education
 **Universitas Darma Persada, Jakarta**
