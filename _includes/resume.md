@@ -7,7 +7,7 @@ Tangerang Selatan, Indonesia
 **Senior Platform Engineer** with 13+ years of experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity via strict IaC and GitOps automation. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic platforms. Highly adaptable, self-driven, and thrives in autonomous remote environments.
 
 ## Technical Skills
-* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront), GCP (Compute Engine, Dataflow, Pub/Sub), On-Premise (K3s, Ubuntu)
+* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront), GCP (Compute Engine, Dataflow, Pub/Sub), On-Premise (K3s, Windows Server, Ubuntu)
 * **Automation & CI/CD:** Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, UiPath
 * **IaC & Orchestration:** Terraform, Terragrunt, Ansible, Helm, Docker
 * **Observability:** Prometheus, Grafana, Loki, Tempo, Datadog, ELK Stack
@@ -15,7 +15,7 @@ Tangerang Selatan, Indonesia
 * **Security & Governance:** Bitnami Sealed Secrets, Snort, AlienVault SIEM, IAM Least-Privilege
 * **Databases & Storage:** PostgreSQL, Pgcat, MySQL, MongoDB, Longhorn, Parquet
 * **Testing & DevEx:** Vagrant, Selenium, pytest, unittest
-* **Software Engineering:** Python (Django, Flask), Go, Ruby on Rails, Bash
+* **Software Engineering & Scripting:** Python (Django, Flask), Go, PowerShell, Bash, Ruby on Rails
 
 ## Professional Experience
 
@@ -29,7 +29,7 @@ Tangerang Selatan, Indonesia
 **Traveloka Indonesia (traveloka.com)** | **Site Reliability Engineer**
 *July 2020 – August 2025 | Jakarta, On-site*
 * **Cost Optimization:** Led AWS FinOps initiatives, cutting monthly compute costs by ~30% through scalable infrastructure utilizing EC2 Spot Instances and Auto Scaling Groups (ASG). 
-* **Operational Excellence:** Modernized IaC by implementing Terragrunt across 50+ Terraform modules. Built CI/CD pipelines via AWS CodeBuild and GitHub Actions, and deployed UiPath RPA to automate partner workflows.
+* **Operational Excellence:** Modernized IaC by implementing Terragrunt across 50+ Terraform modules. Built CI/CD pipelines via AWS CodeBuild and GitHub Actions. Installed and configured UiPath RPA tools on Windows Server, utilizing PowerShell scripts and leveraging Windows Task Scheduler to orchestrate the reliable periodic execution of automated workflows.
 * **Reliability:** Managed 24/7 on-call rotations for critical travel services. Designed Disaster Recovery (DR) plans and implemented Datadog for real-time ECS/RDS monitoring.
 * **Security:** Enforced security perimeters using AWS WAF and strictly defined AWS IAM roles to guarantee least-privilege access across 100+ multi-tenant accounts.
 
@@ -67,5 +67,4 @@ Tangerang Selatan, Indonesia
 
 ### Education
 **Universitas Darma Persada, Jakarta**
-Bachelor of Informatics Engineering
-*2009 - 2015*
+Bachelor of Informatics Engineering | *2009 - 2015*
