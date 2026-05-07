@@ -5,32 +5,32 @@ Tangerang Selatan, Indonesia
 
 ## Professional Summary
 **Platform Engineer** with 13+ years of experience spanning infrastructure architecture, software engineering, and cybersecurity.
-Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity via strict IaC and GitOps automation.
-Adept at managing Linux production infrastructure, modernizing legacy architectures, enforcing DevSecOps governance, and implementing unified observability.
+Proven track record of designing fault-tolerant ecosystems and accelerating developer velocity via IaC and GitOps automation.
+Adept at managing cloud based and onpremise production infrastructure, modernizing legacy architectures, and implementing unified observability to support high-traffic platforms.
 Driving continuous improvement through SRE culture, incident management, and blameless post-mortems.
 
 ## Technical Skills
-* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront), GCP (GCE, GKE, VPC, Cloud IAM, Dataflow, Pub/Sub), On-Premise (K3s, Ubuntu/Red Hat Linux)
-* **Automation & CI/CD:** Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, ArgoCD, SonarQube, UiPath
+* **Cloud & Infrastructure:** AWS (EKS, EC2, CloudFront), GCP (GCE, GKE, Cloud Run, VPC, Cloud IAM, Dataflow, Pub/Sub), On-Premise (K3s, Ubuntu/Red Hat Linux)
+* **Automation & CI/CD:** Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, ArgoCD, SonarQube
 * **IaC & Orchestration:** Terraform, Terragrunt, Ansible, Helm, Docker, Kubernetes
 * **Observability:** Datadog, Prometheus, Grafana, Loki, Tempo, ELK Stack
 * **Security & Governance:** AWS Security Hub, Amazon GuardDuty, GCP Cloud Armor, HashiCorp Vault, Bitnami Sealed Secrets, Enterprise Firewalls (Palo Alto, F5), AlienVault SIEM, AWS IAM
 * **Web Servers & Edge:** Nginx, Apache, AWS WAF, GCP Cloud Armor, Akamai CDN, Varnish Cache
-* **Databases & Storage:** PostgreSQL, Pgcat, MongoDB, Redis, MySQL, Longhorn
+* **Databases & Storage:** PostgreSQL, Pgcat, MongoDB, Redis, MySQL, Longhorn, S3 / Cloud Storage
 * **Software Engineering & Scripting:** Python (Django, Flask), PHP, Shell/Bash
 
 ## Professional Experience
 
 **Ailytics (ailytics.ai)** | **Senior DevOps & Cloud Engineer**
 *August 2025 – March 2026 | Singapore, Remote*
-* **Reliability:** Engineered highly available deployments across AWS EKS and on-premise K3s environments. Authored Terraform and Ansible to orchestrate K3s across bare-metal client servers and architected distributed block storage via Longhorn.
+* **Reliability:** Engineered highly available deployments across AWS EKS and on-premise K3s environments to support scalable AI workloads and computer vision APIs. Authored Terraform and Ansible to orchestrate K3s across bare-metal client servers and architected distributed block storage via Longhorn.
 * **Operational Excellence:** Built a cloud-native observability stack (Prometheus, Grafana, Loki, Tempo) to accelerate MTTR. Refactored legacy Helm charts and implemented ArgoCD for GitOps delivery, cutting deployment times by ~40%.
 * **Performance Efficiency:** Accelerated content delivery via AWS CloudFront and optimized PostgreSQL performance using Pgcat connection poolers to ensure reliability at scale under high-concurrency traffic.
 * **Security:** Bypassed strict client firewalls via ngrok secure tunnels and configured inter-node NAT. Managed encrypted secrets with Bitnami Sealed Secrets.
 
 **Traveloka Indonesia (traveloka.com)** | **Site Reliability Engineer**
 *July 2020 – August 2025 | Jakarta, On-site*
-* **Cost Optimization:** Led AWS FinOps initiatives, cutting monthly compute costs by ~30% through scalable infrastructure utilizing EC2 Spot Instances and Auto Scaling Groups (ASG). 
+* **Cost Optimization (FinOps):** Led AWS FinOps initiatives, cutting monthly compute costs by ~30% through scalable infrastructure utilizing EC2 Spot Instances and Auto Scaling Groups (ASG). 
 * **Operational Excellence:** Modernized IaC by implementing Terragrunt across 50+ Terraform modules. Built CI/CD pipelines via AWS CodeBuild and GitHub Actions, integrating SonarQube for continuous code quality inspection. Installed and configured UiPath RPA tools on Windows Server, leveraging PowerShell and Task Scheduler to orchestrate workflows.
 * **Reliability:** Managed 24/7 on-call rotations for critical services in strict adherence to incident management processes. Executed blameless post-mortem activities to drive continuous systemic improvement. Designed Disaster Recovery plans and implemented Datadog for real-time monitoring.
 * **Security:** Enforced strict security perimeters utilizing AWS WAF, Amazon GuardDuty, and AWS Security Hub for continuous threat detection. Strictly defined AWS IAM roles to guarantee least-privilege access across 100+ multi-tenant accounts.
