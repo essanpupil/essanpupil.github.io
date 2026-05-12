@@ -6,23 +6,26 @@ Tangerang Selatan, Indonesia
 
 ## Professional Summary
 
-Over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity. Proven track record of designing fault-tolerant hybrid cloud ecosystems (AWS, GCP, On-Premise) and accelerating developer velocity through strict Infrastructure as Code (IaC) and GitOps automation. Highly adaptable and self-driven, with a demonstrated capacity for rapid, independent learning to master emerging technologies on demand. Thrives in fully remote environments requiring high autonomy and minimal supervision, consistently delivering on architectural commitments while remaining a highly collaborative partner within distributed engineering teams. Adept at aligning technical strategy with business objectives to drive high-impact FinOps cost reductions, enforce DevSecOps governance, and implement unified observability across high-traffic, multi-tenant platforms.
+Over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity.
+Proven track record of greenfield engineering, designing fault-tolerant, multi-cloud (AWS, GCP), and on-premise ecosystems from scratch.
+Leveraging a strong software engineering background to deliver code heavy, scalable Infrastructure as Code (IaC) solutions and bespoke third-party integrations.
+Adept at driving regional high availability, enforcing rigorous security automation, and implementing self-service Business Continuity Planning (BCP) across high-traffic, multi-tenant global platforms.
 
 ## Technical Skills
 
-* **Cloud Platforms & Infrastructure:** AWS (EKS, ECS, EC2 Spot/ASG, Lambda, S3, RDS, Billing Alerts), GCP (Compute Engine, GCS, Dataflow, Pub/Sub), Ubuntu/Linux Servers.
+* **Cloud & On-Premise Infrastructure:** AWS (EKS, ECS, EC2, Lambda), GCP (Compute Engine, GKE, Dataflow), Bare-metal/On-Premise (Ubuntu/Linux Servers).
 * **Content Delivery & Caching:** AWS CloudFront, Akamai CDN, Varnish Cache.
 * **Networking & Edge Security:** AWS WAF, GCP Cloud Armor, ngrok.
 * **Containerization & Orchestration:** Kubernetes (AWS EKS, K3s), Helm, Docker.
-* **Infrastructure as Code & Configuration:** Terraform, Terragrunt, Ansible, Vagrant.
+* **Infrastructure as Code & Configuration:** Terraform, Terragrunt, Ansible.
 * **Continuous Integration & Delivery (CI/CD):** ArgoCD (GitOps), GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, Jenkins.
 * **Workflow Automation & RPA:** Apache Airflow, UiPath, Automated Testing (Selenium/WebDriver, pytest, unittest).
-* **Observability & Monitoring:** Datadog, Prometheus, Grafana, Loki, Tempo (Distributed Tracing), ELK Stack (Elasticsearch, Logstash, Kibana), Nagios, Cacti.
+* **Observability & Monitoring:** Datadog, Prometheus, Grafana, Loki, Tempo, ELK Stack, Nagios.
 * **Reliability Engineering:** Chaos Engineering (AWS FIS), Disaster Recovery (DR), High Availability Architecture, Incident Response, SLA Management.
-* **Security & Governance:** DevSecOps, Cloud IAM Least-Privilege, Bitnami Sealed Secrets, AlienVault OSSIM, Palo Alto, F5 Firewalls, Snort.
-* **Software Engineering & Backend:** Go, Python (Django, Flask), Ruby on Rails, SQL.
-* **Scripting:** Bash, Python.
-* **Databases:** PostgreSQL, MySQL, Pgcat (Connection Pooling).
+* **Security & Governance:** Cloud IAM, Bitnami Sealed Secrets, AWS WAF, GCP Cloud Armor, AlienVault OSSIM.
+* **Software Engineering & Backend:** Django, Flask, Ruby on Rails.
+* **Scripting:** Bash, Python, SQL.
+* **Databases & Storage:** PostgreSQL, MySQL, Pgcat, Longhorn, AWS S3.
 * **Storage & Data Formats:** Longhorn (Block Storage), NFS, Parquet.
 
 ## Professional Experience
