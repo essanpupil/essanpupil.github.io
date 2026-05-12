@@ -8,23 +8,23 @@ Tangerang Selatan, Indonesia
 
 Over 13 years of cross-functional experience spanning infrastructure architecture, software engineering, and cybersecurity.
 Proven track record of greenfield engineering, designing fault-tolerant, multi-cloud (AWS, GCP), and on-premise ecosystems from scratch.
-Leveraging a strong software engineering background to deliver code heavy, scalable Infrastructure as Code (IaC) solutions and bespoke third-party integrations.
+Leveraging a strong software engineering background to deliver code heavy, scalable Infrastructure as Code (IaC) solutions and bespoke third party integrations.
 Adept at driving regional high availability, enforcing rigorous security automation, and implementing self-service Business Continuity Planning (BCP) across high-traffic, multi-tenant global platforms.
 
 ## Technical Skills
 
-* **Cloud & On-Premise Infrastructure:** AWS (EKS, ECS, EC2, Lambda), GCP (Compute Engine, GKE, Dataflow), Bare-metal/On-Premise (Ubuntu/Linux Servers).
+* **Cloud & On-Premise Infrastructure:** AWS (EKS, ECS, EC2, Lambda, DynamoDB, S3, VPC, IAM), GCP (Compute Engine, GKE, Dataflow), Bare-metal/On-Premise (Ubuntu/Linux Servers).
 * **Content Delivery & Caching:** AWS CloudFront, Akamai CDN, Varnish Cache.
 * **Networking & Edge Security:** AWS WAF, GCP Cloud Armor, ngrok.
 * **Containerization & Orchestration:** Kubernetes (AWS EKS, K3s), Helm, Docker.
-* **Infrastructure as Code & Configuration:** Terraform, Terragrunt, Ansible.
+* **Infrastructure as Code & Configuration:** Terraform, CloudFormation, Terragrunt, Ansible.
 * **Continuous Integration & Delivery (CI/CD):** ArgoCD (GitOps), GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, Jenkins.
 * **Workflow Automation & RPA:** Apache Airflow, UiPath, Automated Testing (Selenium/WebDriver, pytest, unittest).
-* **Observability & Monitoring:** Datadog, Prometheus, Grafana, Loki, Tempo, ELK Stack, Nagios.
-* **Reliability Engineering:** Chaos Engineering (AWS FIS), Disaster Recovery (DR), High Availability Architecture, Incident Response, SLA Management.
+* **Observability & Monitoring:** Datadog, CloudWatch, Prometheus, Grafana, Loki, Tempo, ELK Stack, Nagios.
+* **Reliability Engineering:** Incident Management, SLOs, SLIs, Error Budgets, Chaos Engineering (AWS FIS), Disaster Recovery (DR), High Availability Architecture, SLA Management.
 * **Security & Governance:** Cloud IAM, Bitnami Sealed Secrets, AWS WAF, GCP Cloud Armor, AlienVault OSSIM.
 * **Software Engineering & Backend:** Django, Flask, Ruby on Rails.
-* **Scripting:** Bash, Python, SQL.
+* **Scripting:** Python, Bash, SQL.
 * **Databases & Storage:** PostgreSQL, MySQL, Pgcat, Longhorn, AWS S3.
 * **Storage & Data Formats:** Longhorn (Block Storage), NFS, Parquet.
 
